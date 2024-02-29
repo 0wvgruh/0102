@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    width: 1200px;
+   margin: 20px auto; /*내용을 화면 가운데로, 마진주기*/
+}
+#header {
+    width: 1200px;
+    height: 120px;
+    background-color: #acacac;
+}
+#left-sidebar {
+    width: 250px;
+    height: 600px;
+    background-color: aqua;
+    float: left;
+}
+#contents {
+    width: 800px;
+    height: 600px;
+    background-color: #f7f7f7;
+    float: left;
+}
+#right-sidebar {
+    width: 150px;
+    height: 600px;
+    background-color: coral;
+    float: right;
+}
+#footer {
+    width: 1200px;
+    height: 100px;
+    background-color: #888888;
+    clear: left;
+}
